@@ -1,0 +1,573 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodieWay</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="images/fire.png">
+</head>
+<body>
+<div class="top-bar">
+    <div class="container">
+      <div class="top-bar-in">
+      <div class="info">
+        <span class="hide1"><i class="fa fa-clock-o" aria-hidden="true"></i> Tuesday-Saturday : 11:00 AM to 9:00 PM</span>
+        <span class="hide1"><i class="fa fa-clock-o" aria-hidden="true"></i> Sunday for brunch : 10:00 AM to 3 PM</span>
+        <span class="hide1"><i class="fa fa-clock-o" aria-hidden="true"></i> Monday : Closed</span>
+        <span><i class="fa fa-phone" aria-hidden="true"></i> <a href="callto: (845) 999-4889">(845) 999-4889</a></span>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+      </div>
+            </div>
+     
+    </div>
+</div>
+
+<div class="container">
+<nav class="navbar">
+  <div class="logo">
+    <h1><a href="index.html">Foodieway<span class="fire-icon">🔥</span></a></h1>
+  </div>
+
+  <div class="hamburger" onclick="toggleMenu()">
+    <i class="fa fa-bars"></i>
+  </div>
+
+  <ul class="nav-links" id="navMenu">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="contact.html#Location">Location & Hours</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+
+  <div class="nav-buttons">
+    <a href="menu.html"><button class="order-btn"><i class="fa fa-shopping-cart"></i> Order Online</button></a>
+    <button class="user-btn"><i class="fa fa-user-o"></i></button>
+  </div>
+</nav>
+    </div>
+   
+
+    
+    <header class="banner">
+      <h2>Order Online</h2>
+    </header>
+
+   
+   <nav>
+    <div class="container">
+        <div class="options">
+        
+    <ul>
+      <li>Combos</li>
+      <li>Sandwiches</li>
+      <li>Appetizers</li>
+      <li>Plates</li>
+      <li>Salads</li>
+      <li>Drink</li>
+      <li>Sides</li>
+      <li>Kids</li>
+      <li>Pasta</li>
+      <li>McShack Sampler Platter</li>
+      <li>Soup</li>
+    </ul>
+    </div>
+  </nav>
+   </div> 
+     
+
+  <section class="menu-section">
+    <div class="container">
+        <h2 class="section-title">Combos</h2>
+    <div class="cards-container">
+      
+      <div class="combo-card">
+        <img src="images/combo1.jpg" alt="Jerk Chicken Combo">
+        <div class="card-content">
+          <h3>Jerk Chicken combo</h3>
+          <p>1/2 Succulent Chicken marinated in our jerk seasonings and grilled slowly for hours served with fries & coleslaw</p>
+          <span class="price">$16.99</span>
+            <button class="add-to-cart-btn" data-name="Jerk Chicken combo" data-price="16.99">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="combo-card">
+        <img src="images/combo2.jpg" alt="Jerk-B-Que Chicken Combo">
+        <div class="card-content">
+          <h3>Jerk-B-Que Chicken combo</h3>
+          <p>1/2 Succulent chicken marinated in our Jerk-B-Que seasonings & grilled slowly for hours served with fries & coleslaw</p>
+          <span class="price">$16.99</span>
+    <button class="add-to-cart-btn" data-name="Jerk-B-Que Chicken combo" data-price="16.99">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="combo-card">
+        <img src="images/combo3.jpg" alt="Jerk Ribs Combo">
+        <div class="card-content">
+          <h3>Jerk Ribs combo</h3>
+          <p>3 Tender, juicy Spare Ribs smoked & grilled slowly in our Jerk sauce served with fries & coleslaw</p>
+          <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Jerk Ribs combo" data-price="17.99">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="combo-card">
+        <img src="images/combo4.jpg" alt="Jerk Ribs Combo">
+        <div class="card-content">
+          <h3>Jerk-B-Que Ribs combo</h3>
+          <p>3 Tender, juicy Spare Ribs smoked & grilled slowly grilled in Jerk-B-Que sauce served with fries & coleslaw</p>
+          <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Jerk-B-Que Ribs combo" data-price="17.99">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="combo-card">
+        <img src="images/combo5.jpg" alt="Jerk Ribs Combo">
+        <div class="card-content">
+          <h3>Jerk Brisket combo</h3>
+          <p>4 slices of moist, tender, juicy, smokey Brisket marinated in our jerk seasoning & 
+            grilled for hours served with fries & coleslaw</p>
+          <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Jerk Brisket combo" data-price="17.99">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="combo-card">
+        <img src="images/combo6.jpg" alt="Jerk Ribs Combo">
+        <div class="card-content">
+          <h3>Jerk Pulled Pork combo</h3>
+          <p>Juicy pulled pork tossed in Jerk-B-Que sauce served with fries & coleslaw</p>
+          <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Jerk Pulled Pork combo" data-price="17.99">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="combo-card">
+        <img src="images/combo7.jpg" alt="Jerk Ribs Combo">
+        <div class="card-content">
+          <h3>Jerk Fish comboo</h3>
+          <p>Grilled Red snapper fish in Jerk sauce served with fries & coleslaw</p>
+          <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Jerk Fish combo" data-price="17.99">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="combo-card">
+        <img src="images/combo8.jpg" alt="Jerk Ribs Combo">
+        <div class="card-content">
+          <h3>Fried Fish combo</h3>
+          <p>Fried whole/fillet Red snapper fish with escovich sauce served with fries & coleslaw</p>
+          <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Fried Fish combo" data-price="17.99">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="combo-card">
+        <img src="images/combo9.jpg" alt="Jerk Ribs Combo">
+        <div class="card-content">
+          <h3>Jerk Salmon combo</h3>
+          <p>Grilled salmon steak marinated in Jerk sauce served with fries & coleslaw</p>
+          <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Jerk Salmon combo" data-price="17.99">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="combo-card">
+        <img src="images/combo10.jpg" alt="Jerk Ribs Combo">
+        <div class="card-content">
+          <h3>Chicken Tenders combo</h3>
+          <p>3 Juicy, tender golden fried chicken breast strips served with fries & coleslaw</p>
+          <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Chicken Tenders combo" data-price="17.99">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="combo-card">
+        <img src="images/combo11.jpg" alt="Jerk Ribs Combo">
+        <div class="card-content">
+          <h3>Jerk Pork combo</h3>
+          <p></p>
+          <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Jerk Pork combo" data-price="17.99">Add to Cart</button>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+    </div>
+
+    <section class="menu-section">
+    <div class="container">
+        <h2 class="section-title">Sandwiches</h2>
+    <div class="cards-container">
+      
+      <div class="combo-card">
+        <img src="images/sandwich1.jpg" alt="Jerk Chicken Combo">
+        <div class="card-content">
+          <h3>Pulled Pork Sandwich</h3>
+          <p>Juicy smoked pulled pork sandwich with fries</p>
+          <span class="price">$16.99</span>
+    <button class="add-to-cart-btn" data-name="Pulled Pork Sandwich" data-price="16.99">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="combo-card">
+        <img src="images/sandwich2.jpg" alt="Jerk-B-Que Chicken Combo">
+        <div class="card-content">
+          <h3>Brisket Sandwich</h3>
+          <p>Tender smoke Brisket sandwich with fries</p>
+          <span class="price">$16.99</span>
+    <button class="add-to-cart-btn" data-name="Brisket Sandwich" data-price="16.99">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="combo-card">
+        <img src="images/sandwich3.jpg" alt="Jerk Ribs Combo">
+        <div class="card-content">
+          <h3>Mc's chicken sandwich</h3>
+          <p>Two hand battered golden fried chicken breasts served on toasted brioche bun topped with our house made sauce and pickles</p>
+          <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Mc's chicken sandwich" data-price="17.99">Add to Cart</button>
+
+        </div>
+      </div>
+
+      <div class="combo-card">
+        <img src="images/sandwich4.jpg" alt="Jerk Ribs Combo">
+        <div class="card-content">
+          <h3>The McShack</h3>
+          <p>Toasted brioche bun topped with juicy pulled pork, smoked brisket, mac & cheese, coleslaw & pickles</p>
+          <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="The McShack" data-price="17.99">Add to Cart</button>
+
+        </div>
+      </div>
+      </div>
+      </div>
+      </section>
+
+
+  <section class="menu-section">
+    <div class="container">
+        <h2 class="section-title">Appetizers</h2>
+    <div class="cards-container">
+      
+      <!-- Tostones Bites -->
+<div class="combo-card">
+  <img src="images/appetizer1.jpg" alt="Tostones Bites">
+  <div class="card-content">
+    <h3>Tostones Bites</h3>
+    <p>3 Fried press green plantain topped with jerk or Jerk-B-Que Pulled pork</p>
+    <span class="price">$16.99</span>
+    <button class="add-to-cart-btn" data-name="Tostones Bites" data-price="16.99">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Ackee & Saltfish Toppers -->
+<div class="combo-card">
+  <img src="images/appetizer2.jpg" alt="Ackee & Saltfish Toppers">
+  <div class="card-content">
+    <h3>Ackee & Saltfish Toppers</h3>
+    <p>1/2 Succulent chicken marinated in our Jerk-B-Que seasonings & grilled slowly for hours served with fries & coleslaw</p>
+    <span class="price">$16.99</span>
+    <button class="add-to-cart-btn" data-name="Ackee & Saltfish Toppers" data-price="16.99">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Pulled Pork Sliders -->
+<div class="combo-card">
+  <img src="images/appetizer3.jpg" alt="Pulled Pork Sliders">
+  <div class="card-content">
+    <h3>Pulled Pork Sliders</h3>
+    <p>3 Tender, juicy Spare Ribs smoked & grilled slowly in our Jerk sauce served with fries & coleslaw</p>
+    <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Pulled Pork Sliders" data-price="17.99">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Mc's Brisket Sliders -->
+<div class="combo-card">
+  <img src="images/appetizer4.jpg" alt="Mc's Brisket Sliders">
+  <div class="card-content">
+    <h3>Mc's Brisket Sliders</h3>
+    <p>3 Tender, juicy Spare Ribs smoked & grilled slowly in our Jerk sauce served with fries & coleslaw</p>
+    <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Mc's Brisket Sliders" data-price="17.99">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Mc's Wings -->
+<div class="combo-card">
+  <img src="images/appetizer5.jpg" alt="Mc's Wings">
+  <div class="card-content">
+    <h3>Mc's Wings</h3>
+    <p>3 Tender, juicy Spare Ribs smoked & grilled slowly in our Jerk sauce served with fries & coleslaw</p>
+    <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Mc's Wings" data-price="17.99">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Animal Fries -->
+<div class="combo-card">
+  <img src="images/appetizer6.jpg" alt="Animal Fries">
+  <div class="card-content">
+    <h3>Animal Fries</h3>
+    <p>3 Tender, juicy Spare Ribs smoked & grilled slowly in our Jerk sauce served with fries & coleslaw</p>
+    <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Animal Fries" data-price="17.99">Add to Cart</button>
+  </div>
+</div>
+
+      </div>
+      </div>
+      </section>
+
+
+    <section class="menu-section">
+    <div class="container">
+        <h2 class="section-title">Plates</h2>
+    <div class="cards-container">
+      
+      <!-- Jerk Oxtail Plate -->
+<div class="combo-card">
+  <img src="images/Plate1.jpg" alt="Jerk Oxtail Plate">
+  <div class="card-content">
+    <h3>Jerk Oxtail Plate</h3>
+    <p>Succulent jerk Oxtail in a broad bean veggi sauce served with coconut rice & peas</p>
+    <span class="price">$35.99</span>
+    <button class="add-to-cart-btn" data-name="Jerk Oxtail Plate" data-price="35.99">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Pork Plate (Jerk or Jerk-B-Que) -->
+<div class="combo-card">
+  <img src="images/Plate2.jpg" alt="Pork Plate (Jerk or Jerk-B-Que)">
+  <div class="card-content">
+    <h3>Pork Plate (Jerk or Jerk-B-Que)</h3>
+    <p>Juicy, smokey, Jerk Pork served with coconut rice & peas, with seasonal sauteed veggies</p>
+    <span class="price">$29.99</span>
+    <button class="add-to-cart-btn" data-name="Pork Plate (Jerk or Jerk-B-Que)" data-price="29.99">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Chicken Plate (Jerk or Jerk-B-Que) -->
+<div class="combo-card">
+  <img src="images/Plate3.jpg" alt="Chicken Plate (Jerk or Jerk-B-Que)">
+  <div class="card-content">
+    <h3>Chicken Plate (Jerk or Jerk-B-Que)</h3>
+    <p>Juicy, smokey, Jerk Pork served with coconut rice & peas, with seasonal sauteed veggies</p>
+    <span class="price">$22.99</span>
+    <button class="add-to-cart-btn" data-name="Chicken Plate (Jerk or Jerk-B-Que)" data-price="22.99">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Brisket Plate (Jerk or Jerk-B-Que) -->
+<div class="combo-card">
+  <img src="images/Plate4.jpg" alt="Brisket Plate (Jerk or Jerk-B-Que)">
+  <div class="card-content">
+    <h3>Brisket Plate (Jerk or Jerk-B-Que)</h3>
+    <p>Juicy, smokey, Jerk Pork served with coconut rice & peas, with seasonal sauteed veggies</p>
+    <span class="price">$29.99</span>
+    <button class="add-to-cart-btn" data-name="Brisket Plate (Jerk or Jerk-B-Que)" data-price="29.99">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Spare Rib Plate (Jerk or Jerk-B-Que) -->
+<div class="combo-card">
+  <img src="images/Plate5.jpg" alt="Spare Rib Plate (Jerk or Jerk-B-Que)">
+  <div class="card-content">
+    <h3>Spare Rib Plate (Jerk or Jerk-B-Que)</h3>
+    <p>Juicy, smokey, Jerk Pork served with coconut rice & peas, with seasonal sauteed veggies</p>
+    <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Spare Rib Plate (Jerk or Jerk-B-Que)" data-price="17.99">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Jerk Salmon Plate -->
+<div class="combo-card">
+  <img src="images/Plate6.jpg" alt="Jerk Salmon Plate">
+  <div class="card-content">
+    <h3>Jerk Salmon Plate</h3>
+    <p>Juicy, smokey, Jerk Pork served with coconut rice & peas, with seasonal sauteed veggies</p>
+    <span class="price">$17.99</span>
+    <button class="add-to-cart-btn" data-name="Jerk Salmon Plate" data-price="17.99">Add to Cart</button>
+  </div>
+</div>
+
+
+      </div>
+      </div>
+      </div>
+      </section>
+
+<section class="menu-section">
+    <div class="container">
+        <h2 class="section-title">Salad</h2>
+    <div class="cards-container">
+      
+      <!-- Jerk Salmon Salad -->
+<div class="combo-card">
+  <img src="images/salad1.jpg" alt="Jerk Salmon Salad">
+  <div class="card-content">
+    <h3>Jerk Salmon Salad</h3>
+    <p>Fresh, crispy caesar salad topped with jerk salmon steak</p>
+    <span class="price">$16.99</span>
+    <button class="add-to-cart-btn" data-name="Jerk Salmon Salad" data-price="16.99">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Jerk Chicken Salad -->
+<div class="combo-card">
+  <img src="images/salad2.jpg" alt="Jerk Chicken Salad">
+  <div class="card-content">
+    <h3>Jerk Chicken Salad</h3>
+    <p>Fresh, crispy caesar salad topped with juicy jerk chicken breast</p>
+    <span class="price">$16.99</span>
+    <button class="add-to-cart-btn" data-name="Jerk Chicken Salad" data-price="16.99">Add to Cart</button>
+  </div>
+</div>
+
+      </div>
+      </div>
+      </section>
+
+
+<section class="menu-section">
+    <div class="container">
+        <h2 class="section-title">Drinks</h2>
+    <div class="cards-container">
+      
+      <!-- Pineapple & Ginger Punch -->
+<div class="combo-card">
+  <img src="images/drink1.jpg" alt="Pineapple & Ginger Punch">
+  <div class="card-content">
+    <h3>Pineapple & Ginger Punch</h3>
+    <p>Refreshing blend of tropical fruits juices</p>
+    <span class="price">$5.99</span>
+    <button class="add-to-cart-btn" data-name="Pineapple & Ginger Punch" data-price="5.99">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Lemonade -->
+<div class="combo-card">
+  <img src="images/drink2.jpg" alt="Lemonade">
+  <div class="card-content">
+    <h3>Lemonade</h3>
+    <p>Sweet, tangy lemonade made from cane sugar with freshly squeesed lemons & limes</p>
+    <span class="price">$3.99</span>
+    <button class="add-to-cart-btn" data-name="Lemonade" data-price="3.99">Add to Cart</button>
+  </div>
+</div>
+
+
+    
+
+
+      </div>
+      </div>
+      </div>
+      </section>
+    <section class="shopping-cart-section">
+      <div class="container">
+        <h2 class="section-title">Your Shopping Cart</h2>
+        <div id="cart-items">
+          <!-- Cart items will be dynamically added here by JavaScript -->
+          <p>Your cart is empty.</p>
+        </div>
+        <div class="cart-summary">
+          <p>Total: $<span id="cart-total">0.00</span></p>
+          <button id="checkout-btn" class="btn-main" style="display: none;">Checkout</button>
+        </div>
+      </div>
+    </section>
+    
+
+      
+ 
+<div class="footer-bg">
+  <div class="container">
+    <footer class="footer-section">
+    <div class="footer-container">
+      
+      
+      <div class="footer-about">
+        <div class="footer-logo">
+          <h2><a href="index.html">Foodieway <span class="logo-icon">🔥</span><br>Treatz</a></h2>
+        </div>
+        <p>Foodieway Treatz is a Caribbean infused restaurant specializing in authentic jerk-style cooking.</p>
+        <div class="footer-social">
+          <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      
+      <div class="footer-links">
+        <h3>USEFUL LINKS</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html#Location">Location & Hours</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      
+      <div class="footer-contact">
+        <h3>ADDRESS</h3>
+        <p><i class="fa fa-phone" aria-hidden="true"></i>(845) 999-4889</p>
+        <p><i class="fa fa-map-marker" aria-hidden="true"></i>400 New York 17M, Monroe, NY 10950</p>
+        
+        <h3>OPENING HOURS</h3>
+        <p><i class="fa fa-clock-o"></i>Tuesday-Saturday : 11:00 AM to 9:00 PM</p>
+        <p><i class="fa fa-clock-o"></i>Sunday for brunch : 10:am to 3pm</p>
+        <p><i class="fa fa-clock-o"></i>Monday : Closed</p>
+      </div>
+      
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 Foodieway Treatz Restaurant | All Rights Reserved.</p>
+      <div>
+        <a href="terms.html">Terms of Service</a> |
+        <a href="privacy.html">Privacy Statement</a>
+      </div>
+    </div>
+  </footer>
+  
+  </div>
+  
+</div>
+<script>
+  function toggleMenu() {
+    const menu = document.getElementById("navMenu");
+    menu.classList.toggle("active");
+  }
+</script>
+
+  
+
+<script src="script.js"></script>
+</body>
+</html>
+
