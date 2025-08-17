@@ -1,6 +1,6 @@
 # Foodieway
 # Foodieway Project – Folder Structure
-
+```plaintext
 Foodieway/
 │── index.html # Main UI page
 │── style.css # CSS for styling
